@@ -9,7 +9,7 @@ cities = pd.read_csv('cities.csv')
 k = 5
 
 # Initialize the k-means model
-kmeans = KMeans(n_clusters=k)
+kmeans = KMeans(n_clusters=k, random_state = 0)
 
 # Fit the model to the data
 kmeans.fit(cities[['Latitude', 'Longitude']])
@@ -20,6 +20,7 @@ labels = kmeans.labels_
 # Print the cluster assignments
 print(labels)
 
-#print(dict(zip(cities.City.values, labels)))
+print(dict(zip(cities.City.values, labels)))
+
 pickle.dump(kmeans,open( "model.pkl", 'wb'))
 
