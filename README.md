@@ -7,37 +7,10 @@ Made use of latitude and Longitude data for 30 popular Nigerian Cities and then 
 
 ![img](/chart.png)
 
+```python
+{'Lagos': 3, 'Kano': 2, 'Ibadan': 3, 'Abuja': 0, 'Port Harcourt': 4, 'Benin City': 3, 'Maiduguri': 1, 'Zaria': 2, 'Aba': 4, 'Jos': 0, 'Ilorin': 3, 'Oyo': 3, 'Enugu': 4, 'Abeokuta': 3, 'Onitsha': 4, 'Warri': 4, 'Okene': 3, 'Calabar': 4, 'Uyo': 4, 'Sokoto': 2, 'Akure': 3, 'Osogbo': 3, 'Lafia': 0, 'Ado Ekiti': 3, 'Gusau': 2, 'Awka': 4, 'Ijebu Ode': 3, 'Ondo': 3, 'Iseyin': 3, 'Gombe': 1}
 
-{'Lagos': 1,
- 'Kano': 3,
-  'Ibadan': 1,
-   'Abuja': 0,
-    'Port Harcourt': 2,
-     'Benin City': 2,
-      'Maiduguri': 4,
-       'Zaria': 3,
-        'Aba': 2,
-         'Jos': 0,
-          'Ilorin': 1,
-           'Oyo': 1,
-            'Enugu': 2,
-             'Abeokuta': 1,
-              'Onitsha': 2,
-               'Warri': 2,
-                'Okene': 1,
-                 'Calabar': 2,
-                  'Uyo': 2,
-                   'Sokoto': 3,
-                    'Akure': 1,
-                     'Osogbo': 1,
-                      'Lafia': 0,
-                       'Ado Ekiti': 1,
-                        'Gusau': 3,
-                         'Awka': 2,
-                          'Ijebu Ode': 1,
-                           'Ondo': 1,
-                            'Iseyin': 1,
-                             'Gombe': 4}
+```
 
 
 We can kind of deduce some geo-political zones like:
