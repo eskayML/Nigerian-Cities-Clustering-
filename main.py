@@ -12,7 +12,7 @@ k = 5
 kmeans = KMeans(n_clusters=k, random_state = 0)
 
 # Fit the model to the data
-kmeans.fit(cities[['Latitude', 'Longitude']])
+kmeans.fit(cities[['Longitude', 'Latitude']])
 
 # Get the cluster assignments for each data point
 labels = kmeans.labels_

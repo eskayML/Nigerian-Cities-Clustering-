@@ -9,9 +9,9 @@ k = 5
 
 labels = kmeans.labels_;
 # Plot the clustered data
-scatter = plt.scatter(cities['Latitude'], cities['Longitude'], c=labels, cmap='jet')
-plt.ylabel('Longitude')
-plt.xlabel('Latitude')
+scatter = plt.scatter(cities['Longitude'], cities['Latitude'], c=labels, cmap='jet')
+plt.xlabel('Longitude')
+plt.ylabel('Latitude')
 plt.legend(*scatter.legend_elements(),loc = 'best')
 plt.title(f'{k}-means clustering of cities')
 plt.savefig('./chart.png')
