@@ -10,7 +10,7 @@ Made use of latitude and Longitude data for 30 popular Nigerian Cities and then 
 We can kind of deduce some geo-political zones like:
 * South-West : Purple
 * North-west : Orange
-* North-west: Green
+* North-east: Green
 
 Other classes are kind of indeducible but still fall under their respective geo-political zone
 
