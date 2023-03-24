@@ -42,14 +42,11 @@ Made use of latitude and Longitude data for 30 popular Nigerian Cities and then 
 ```
 
 
-We can kind of deduce some geo-political zones like:
-* South-West : Orange
-* South-south/South-east : Brown
-* North-west: Green
-
-Other classes are kind of indeducible but still fall under their respective geo-political zone
-
-
-The data looks better suited to 3 clusters , I believe that could have been a better representation
+We can kind of deduce some `geo-political` zones like:
+* **South-West** : Orange
+* **South-south/South-east** : Brown
+* **North-west**: Green
+* **North-central**: Purple
+* **North-east**: Lemon
 
 
