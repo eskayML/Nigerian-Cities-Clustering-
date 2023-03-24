@@ -20,5 +20,6 @@ labels = kmeans.labels_
 # Print the cluster assignments
 print(labels)
 
+#print(dict(zip(cities.City.values, labels)))
 pickle.dump(kmeans,open( "model.pkl", 'wb'))
 
