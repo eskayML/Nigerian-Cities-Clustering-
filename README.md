@@ -47,6 +47,6 @@ We can kind of deduce some `geo-political` zones like:
 * **South-south/South-east** : Brown
 * **North-west**: Green
 * **North-central**: Purple
-* **North-east**: Lemon
+* **North-east**: Blue
 
 
